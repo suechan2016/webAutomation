@@ -10,3 +10,6 @@ Installation:
 3. In Eclipse, right click on project > Select properties > Java build path > Libraries 
 4. Drag "client-combined-3.4.0-nodeps.jar" from selenium-java-3.4.0 folder and drag all jar inside "lib" folder, then add
 5. In command line, install webdriver. Run "npm install webdriver"
+
+Test Execution
+Right click on ChannelVuew.java, then run as java Application
