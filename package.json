@@ -1,0 +1,28 @@
+{
+  "name": "webautomation",
+  "version": "1.0.0",
+  "description": "Description: A web automation test written by selenium and run on chrome.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -t 100000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltonlauhk01/webAutomation.git"
+  },
+  "author": "Elton Lau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eltonlauhk01/webAutomation/issues"
+  },
+  "homepage": "https://github.com/eltonlauhk01/webAutomation#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.0",
+    "selenium-webdriver": "^3.5.0"
+  }
+}
